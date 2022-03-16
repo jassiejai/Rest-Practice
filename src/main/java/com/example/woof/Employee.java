@@ -1,7 +1,12 @@
 package com.example.woof;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
 public class Employee {
 
+
+    //    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private String firstName;
